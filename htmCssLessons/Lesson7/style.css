@@ -1,0 +1,68 @@
+/*This is Comment*/
+
+.text-info{
+    color: white;
+    background-color: green;
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    border-right: 10px dotted #000;
+    border-left: 5px dashed red;
+    border-top: 13px solid rgb(245, 0, 253);
+    border-bottom: 13px dotted rgb(245, 0, 253);
+}
+
+/* .box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.text{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+span{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+}
+.ib-box{
+    display: inline-block;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+} */
+
+.box-m1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* margin: 10px; hər tərəfdən(top,right,bottom,left)*/
+    /* margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px; */
+
+    margin: 20px 10px 10px 100px;
+}
+
+.box-m2{
+      /* padding: 10px; hər tərəfdən(top,right,bottom,left)*/
+    /* padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 10px;
+    padding-bottom: 10px; */
+    padding: 20px 10px 10px 100px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+span{
+    display: block;
+    color: crimson;
+    font-weight: bolder;
+}
