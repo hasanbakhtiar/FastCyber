@@ -1,0 +1,67 @@
+// position -> relative, absolute, fixed, sticky
+
+// position: relative; -> referans alınan
+// position: absolute; -> referans alan
+
+
+body,
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+// .container{
+//     z-index: 1;
+//     position: relative;
+//     margin-top: 10px;
+//     border: 1px solid rgb(255, 251, 0);
+//     width: 100%;
+//     height: 300px;
+//     background-color: #000;
+//     .box1{
+//         position: absolute;
+//         bottom: 0px;
+//         right: 100px;
+//         width: 100px;
+//         height: 100px;
+//         background-color: red;
+//     }
+// }
+// .box2{
+//     position: absolute;
+//     z-index: 0;
+//     top: 200px;
+//     right: 50px;
+//     // margin-top: 100px;
+//     width: 100px;
+//     height: 100px;
+//     background-color: green;
+// }
+
+header {
+    position: fixed;
+    z-index: 0;
+    width: 100%;
+    height: 100px;
+    background-color: green;
+
+    h1 {
+
+        color: white;
+    }
+}
+
+// p{
+//     position: relative;
+//     z-index: 1;
+// }
+#test {
+    position: sticky;
+    top: 100px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 0, 212);
+    color: rgb(255, 255, 255);
+}

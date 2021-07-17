@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    transition: width 2s, height 5s, background 10s, color 5s, font-size 30s;
+
+    // transition: 3s;
+    // transition-delay: 3s;
+    // transition-property: width;
+//     transition-property: width;
+//   transition-duration: 2s;
+//   transition-timing-function: linear;
+//   transition-delay: 1s;
+// 
+    
+    width: 100px;
+    height: 100px;
+    background: #255;
+
+    &:hover{
+
+    background: rgb(4, 255, 255);
+    width: 200px;
+    height: 200px;
+    color: green;
+    font-size: 50px;
+    }
+}
+
+
+// #div1 {transition-timing-function: linear;}
+// #div2 {transition-timing-function: ease;}
+// #div3 {transition-timing-function: ease-in;}
+// #div4 {transition-timing-function: ease-out;}
+// #div5 {transition-timing-function: ease-in-out;}

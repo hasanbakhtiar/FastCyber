@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@mixin color {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px
+}
+.box1{
+    @include color();
+    transform: translateY(100px);
+    transform: translateX(100px);
+    transform: translate(200px,10px);
+} 
+.box2,.box3,.box4,.box5 {
+   @include color();
+}
+.box2{
+    transform: rotate(10deg);
+    background-color: green;
+}
+.box3{
+    // transform: scale(2,3);
+    // transform: scaleX(3);
+    // transform: scaleY(2);
+    // transform: skewX(-20deg);
+    // transform: skewY(-20deg);
+    // transform: skew(20deg);
+    background-color: pink;
+    // matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY());
+    // transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+// https://www.w3schools.com/css/css3_3dtransforms.asp
