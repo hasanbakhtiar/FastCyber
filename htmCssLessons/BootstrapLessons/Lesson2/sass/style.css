@@ -1,0 +1,8 @@
+.test a {
+  color: red !important;
+}
+
+.test a:hover {
+  color: green !important;
+}
+/*# sourceMappingURL=style.css.map */

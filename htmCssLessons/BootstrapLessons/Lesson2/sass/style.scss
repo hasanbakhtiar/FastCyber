@@ -1,0 +1,9 @@
+.test{
+
+        a{
+            color: red !important;
+            &:hover{
+                color: green !important;
+            }
+        }
+}
