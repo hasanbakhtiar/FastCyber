@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <p>Hello</p>
+    <p>Hello</p>
+    <p>Hello</p>
+<a href="https://google.com" class="myLink" target="_blank">Google</a>
+    <h1 id="test">Header</h1>
+    <h1 class="box">Header</h1>
+    <button onclick="submitLink()" >Change</button>
+
+    <script>
+
+
+
+function submitLink(){
+    document.querySelector(".myLink").attributes[0].value = "https://github.com";
+    document.querySelector(".myLink").innerHTML = "Github";
+    document.querySelector(".myLink").style.background="pink";
+    document.querySelector(".myLink").style.color="green";
+}
+
+        // document.getElementsByTagName('p')[0].innerHTML = "Front";
+        // document.getElementById('test').innerHTML = "Footer";
+        // document.getElementsByClassName('box')[0].innerHTML = "Footer";
+        // document.querySelectorAll(".box")[0].innerHTML = "Footer";
+
+const a = document.querySelector(".box1").attributes[0].value = "hello";
+
+        //  a=()=>{
+        //     document.querySelectorAll(".box")[0].style.display = "none";
+        // };
+
+
+        //  b=()=>{
+        //     document.querySelectorAll(".box")[0].style.display = "block";
+        // };
+        
+
+
+
+
+        
+        
+    
+
+    </script>
+
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
