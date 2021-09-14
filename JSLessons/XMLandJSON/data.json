@@ -1,0 +1,17 @@
+{
+    "Car":{
+        "Model": "Mercedes S500",
+        "Year": 2021,
+        "Color": "Black",
+        "DoorType": 4,
+        "Engine": "v5.0",
+        "Fuel":[
+            {
+                "Electric":true
+            },
+            {
+                "Disel": false
+            }
+        ]
+    }
+}

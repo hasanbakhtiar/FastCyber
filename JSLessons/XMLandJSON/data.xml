@@ -1,0 +1,14 @@
+<Car>
+
+        <Model>Mercedes S500</Model>
+        <Year>2021</Year>
+        <Color>Black</Color>
+        <DoorType>4</DoorType>
+        <Engine>v5.0</Engine>
+        <Fuel>
+                <Electric>True</Electric>
+                
+        </Fuel>
+
+</Car>
+
