@@ -1,0 +1,12 @@
+// https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_animation2
+// https://www.w3schools.com/jquery/jquery_animate.asp
+// https://www.w3schools.com/jquery/jquery_stop.asp
+// https://www.w3schools.com/jquery/jquery_callback.asp
+// https://www.w3schools.com/jquery/jquery_chaining.asp
+// https://www.w3schools.com/jquery/jquery_dimensions.asp
+// https://www.w3schools.com/jquery/jquery_css_classes.asp
+// https://www.w3schools.com/jquery/jquery_dom_remove.asp
+// https://www.w3schools.com/jquery/jquery_dom_add.asp
+// https://www.w3schools.com/jquery/jquery_dom_set.asp
+// https://www.w3schools.com/jquery/jquery_dom_get.asp
+// https://www.w3schools.com/jquery/jquery_noconflict.asp

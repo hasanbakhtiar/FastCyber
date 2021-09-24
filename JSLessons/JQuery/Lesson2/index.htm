@@ -1,0 +1,77 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <style> 
+    .container:hover{
+        cursor: pointer;
+    }
+        #panel, #flip {
+          padding: 5px;
+          text-align: center;
+          background-color: #e5eecc;
+          border: solid 1px #c3c3c3;
+        }
+        
+        #panel {
+          padding: 50px;
+          display: none;
+        }
+        </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+ 
+<div class="container">
+<div id="flip">Click to slide down panel</div>
+<div id="panel">Hello world!</div>
+</div>
+<p></p>
+<script> 
+    $(document).ready(function(){
+      $("#flip").click(function(){
+        $("#panel").slideToggle(3000,()=>{
+            document.querySelector('p').innerHTML = "Hello";
+        });
+      });
+    });
+    </script>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+
+let p = $.noConflict();
+p(document).ready(function(){
+    p("button").click(function(){
+        p("div").animate({
+      left: '250px',
+      opacity: '0.5',
+      height: '150px',
+      width: '150px'
+    },3000,()=>{
+        alert("Hello")
+    });
+  });
+});
+</script> 
+</head>
+<body>
+
+<button>Start Animation</button>
+<br>
+<br>
+<br>
+
+
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+
+</body>
+</html>
+
