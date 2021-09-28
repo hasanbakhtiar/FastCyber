@@ -1,0 +1,4 @@
+<p>Lorem
+<span class='testClass'>Lorem1</span>
+
+</p> ipsum dolor sit amet consectetur adipisicing elit. Est, incidunt necessitatibus quod sequi vero obcaecati dignissimos provident. Totam veniam, placeat accusantium cumque debitis distinctio excepturi sequi iste reprehenderit labore numquam!
