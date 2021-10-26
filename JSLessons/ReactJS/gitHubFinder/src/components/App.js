@@ -20,6 +20,7 @@ export class App extends Component {
         axios
         .get(`https://api.github.com/search/users?q=${keyword}`)
         .then(res=>this.setState({users:res.data.items}));
+//     res.data.items ->    her apide eyni deyil
     }
 
     render() {
