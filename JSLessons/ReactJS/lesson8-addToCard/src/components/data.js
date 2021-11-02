@@ -8,7 +8,7 @@ const data ={
             id:1,
             img: img1,
             title: "Vans Old School",
-            dec: "Best Vans",
+            desc: "Best Vans",
             price: 50
 
         },
@@ -17,7 +17,7 @@ const data ={
             id:2,
             img: img2,
             title: "Vans New School",
-            dec: "New Vans",
+            desc: "New Vans",
             price: 39
 
         },
@@ -26,7 +26,7 @@ const data ={
             id:3,
             img: img3,
             title: "Vans Winter School",
-            dec: " Vans for winter",
+            desc: " Vans for winter",
             price: 46
 
         }
