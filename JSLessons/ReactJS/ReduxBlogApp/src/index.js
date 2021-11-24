@@ -18,17 +18,9 @@ store.subscribe(()=>{
 
 
 const blog1 = store.dispatch(addBlog({title:'b1',description:"desc1", dataAdded:Date().toLocaleString()}));
-const blog2 = store.dispatch(addBlog({title:'b2',description:"desc2", dataAdded:Date.now()}));
-const blog3 = store.dispatch(addBlog({title:'b2',description:"desc2", dataAdded:Date.now()}));
-const blog4 = store.dispatch(addBlog({title:'b2',description:"desc2", dataAdded:Date.now()}));
-const blog5 = store.dispatch(addBlog({title:'b2',description:"desc2", dataAdded:Date.now()}));
-const blog6 = store.dispatch(addBlog({title:'b2',description:"desc2", dataAdded:Date.now()}));
-const blog7 = store.dispatch(addBlog({title:'b2',description:"desc2", dataAdded:Date.now()}));
-const newBlog = store.dispatch(addBlog({title:'My Blog',description:"my new blog", dataAdded:Date.now()}));
 
-// store.dispatch(removeBlog({id:blog1.blog.id }))
-store.dispatch(editBlog(blog2.blog.id, {title:"update"}))
-// console.log(blog2.blog.id);
+
+
 
 store.dispatch(
 {type:"artir"}
